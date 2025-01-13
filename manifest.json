@@ -1,0 +1,84 @@
+{
+   "description": "A Command & Conquer Generals mod for OperaGX",
+   "developer": {
+      "name": "WazzaP"
+   },
+   "icons": {
+      "512": "icon_512.png"
+   },
+   "key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAouNP3U8ycteq9IJI75FejK7yRBmSd9/IT5Lj4UYrQyeyDIBNBJjnTXnJpnRRtECB3wAMH+x/R3BAZ/NwG+SW1leJpK+NbSH+DQJ7OX/s97mM+RkrNjnPxUNX3MDDepyuLZv2r32ULnCP2z/OKBInYRdGiDpgx0o279zGXYxWCQLjWBilRkdvNtyxwn0Is1LIPA6e5sh4Q/PxVdesPTQ8zYJmBc2A61apsvtn8mLXmgh2Hf8XxWqdEZKTUEOYcJ3bO7Ns7IqzBYBdzzT5XORQ+gy/wkFhwnM6cmxcfuJx/Axo9rt85INIFn/Sp0MOh03z4Q7vwm/ibZTu+y5stCLuAqmyiqjoLrZ5O+HpebEisTbuQ2vyoUAoM8h3Q45UEHN6IOcd8x9EKaVfyW9t4Fotpx84sfMEeNLOgk92UVOktmRs1fNOmdamU3cOQT3HtULi/8dLCETLUBMzUgRa/e8KFSFwYnKEytOuHjUgC8KV1r4jg+fj3c9s1eSRKURzh5Cyr3pvRUC1+iE9t+cGUePJVXkXw63KNQcItnKdFRqLDM47pS/rsaj7BpijDHl676Q3zGk+xvyLJuhJHACL6KBtsBvMDCO9IK54+eIbdDnFvQOIYShrGT7SKSeW/2vs+2nvjlF1C+8Masz9Ej8UryJwwjBZJV5hi45iFso5XI47HtUCAwEAAQ==",
+   "manifest_version": 3,
+   "mod": {
+      "license": "license.txt",
+      "payload": {
+         "browser_sounds": {
+            "CLICK": [ "sound/click.mp3" ],
+            "FEATURE_SWITCH_OFF": [ "sound/feature_switch_off.mp3" ],
+            "FEATURE_SWITCH_ON": [ "sound/feature_switch_on.mp3" ],
+            "HOVER": [ "sound/hover.mp3" ],
+            "HOVER_UP": [ "sound/hover.mp3" ],
+            "IMPORTANT_CLICK": [ "sound/important_click.mp3" ],
+            "LEVEL_UPGRADE": [ "sound/level_upgrade.mp3" ],
+            "LIMITER_OFF": [ "sound/limiter_off.mp3" ],
+            "LIMITER_ON": [ "sound/limiter_on.mp3" ],
+            "SWITCH_TOGGLE": [ "sound/switch.mp3" ],
+            "TAB_CLOSE": [ "sound/close_tab.mp3" ],
+            "TAB_INSERT": [ "sound/new_tab.mp3" ],
+            "TAB_SLASH": [ "sound/tab_slash.mp3" ]
+         },
+         "keyboard_sounds": {
+            "TYPING_BACKSPACE": [ "keyboard/backspace.mp3" ],
+            "TYPING_ENTER": [ "keyboard/enter.mp3" ],
+            "TYPING_LETTER": [ "keyboard/letter_1.mp3" ],
+            "TYPING_SPACE": [ "keyboard/space.mp3" ]
+         },
+         "page_styles": [ {
+            "css": [ "webmodding/opera.css" ],
+            "matches": [ "https://*.opera.com/*" ]
+         } ],
+         "theme": {
+            "dark": {
+               "gx_accent": {
+                  "h": 85,
+                  "l": 72,
+                  "s": 100
+               },
+               "gx_secondary_base": {
+                  "h": 272,
+                  "l": 16,
+                  "s": 64
+               }
+            },
+            "light": {
+               "gx_accent": {
+                  "h": 112,
+                  "l": 44,
+                  "s": 80
+               },
+               "gx_secondary_base": {
+                  "h": 272,
+                  "l": 16,
+                  "s": 32
+               }
+            }
+         },
+         "wallpaper": {
+            "dark": {
+               "image": "wallpaper/gx_dark_lightblue.png",
+               "text_color": "#FFFFFF",
+               "text_shadow": "#757575"
+            },
+            "light": {
+               "first_frame": "wallpaper/gx_light_after_eight.png",
+               "image": "wallpaper/gx_light_after_eight.png",
+               "text_color": "#FFFFFF",
+               "text_shadow": "#0B000E"
+            }
+         }
+      },
+      "schema_version": 1
+   },
+   "name": "Command & Conquer Generals Zero Hour",
+   "update_url": "https://api.gx.me/store/mods/update",
+   "version": "1.2"
+}
